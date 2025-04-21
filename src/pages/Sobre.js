@@ -1,4 +1,5 @@
 import React from "react";
+import './styles.css'; // Crie esse CSS com seu estilo
 function Sobre() {
   return (
     <div>

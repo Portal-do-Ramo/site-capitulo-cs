@@ -13,7 +13,7 @@
   }
   
   .logo {
-    height: 90px;
+    height: 8vh;
     object-fit: contain;
   }
   
@@ -27,6 +27,7 @@
   
   .nav-item {
     font-weight: bold;
+    font-size: 15px;
     cursor: pointer;
     color: #fff;
     font-family: Verdana;

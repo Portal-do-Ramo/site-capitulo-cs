@@ -1,0 +1,18 @@
+.searchBar{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap:1%
+    
+}
+.searchBar input{
+    width:25%;
+    height: 50%;
+}
+.grid{
+
+    display: grid; /* Define o container como um grid */
+    grid-template-columns: 1fr 1fr; /* Cria duas colunas de igual largura */
+    grid-template-rows: 1fr 1fr; 
+}

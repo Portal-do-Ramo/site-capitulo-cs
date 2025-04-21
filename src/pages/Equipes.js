@@ -1,58 +1,73 @@
 import React, { useState } from 'react';
 import './Equipes.css'; // Crie esse CSS com seu estilo
-import logo1 from './Logo1.png'; // Substitua pelas imagens reais
-import logo2 from './Logo2.png';
-import logo3 from './Logo3.png';
-import logo4 from './Logo4.png';
+import logo1 from '../assets/Logo1.png'; // Substitua pelas imagens reais
+import {MagnifyingGlass} from 'phosphor-react'
+import TeamCard from '../componentes/CardTeam'
 
+/*
 const equipes = [
   {
-    nome: 'Equipe Alpha',
+    nome: 'Web/App',
     logo: logo1,
     descricao: `Informações sobre a equipe:
     A Equipe Alpha trabalha com robótica educacional, desenvolvendo projetos sociais em escolas públicas.
 
     Projetos:
-    - Robô Educacional
-    - Oficinas de Arduino
-    - Curso de Lógica com Scratch`,
+    - Site do Ramo
+    - Smart Garden
+    - Wise Finance
+    - Ramo Store
+    - ByteSocial
+    `,
   },
   {
-    nome: 'Equipe Beta',
-    logo: logo2,
+    nome: 'IA/BOT',
+
     descricao: `Informações sobre a equipe:
     Equipe voltada para desenvolvimento web e mobile, responsável pelos apps e sites do capítulo.
 
     Projetos:
-    - App Horta Inteligente
-    - Plataforma de Votação
-    - Site Institucional`,
+    - AVIR
+    - SIR
+    - 
+    
+    
+    
+    
+    `,
   },
   {
-    nome: 'Equipe Gama',
-    logo: logo3,
+    nome: 'Games',
+
     descricao: `Informações sobre a equipe:
     Atua com divulgação, marketing e redes sociais. Responsável pela identidade visual do capítulo.
 
     Projetos:
-    - Campanhas no Instagram
-    - Branding IEEE
-    - Apoio a eventos`,
+    - I<3E
+    - Bear Garden
+    - 
+    
+    
+    
+    
+    `,
   },
   {
-    nome: 'Equipe Delta',
-    logo: logo4,
+    nome: 'Hardware',
+
     descricao: `Informações sobre a equipe:
     Responsável pela gestão e organização de eventos, cronogramas e documentações internas.
 
     Projetos:
-    - Semana Acadêmica
-    - Planejamento 2025
-    - Gestão de Projetos`,
+    - Fliperama
+    - Console Portátil
+    - 
+    `,
   },
 ];
-
+*/
 function Equipe() {
+  /*
   const [index, setIndex] = useState(0);
 
   const nextEquipe = () => {
@@ -66,6 +81,7 @@ function Equipe() {
   const { nome, logo, descricao } = equipes[index];
 
   return (
+    
     <div className="equipe-page">
       <div className="carrossel-esquerda">
       <h2 className="carrossel-title">Escolha sua equipe!</h2>
@@ -80,7 +96,32 @@ function Equipe() {
         <pre className="descricao">{descricao}</pre>
       </div>
     </div>
-  );
+  );*/
+
+  const equipes = [
+    {name: "Web/App", description:"", members:["João Pedro Weydt De Faria","Gustavo Andrade","Guilherme Andrade", "Lucas Montenegro"], contact:""},
+    {name: "IA/BOT", description:"", members:["Dannylo Cardoso","Catarina Ribas"], contact:""},
+    {name: "Hardware", description:"", members:["",""], contact:""},
+    {name: "Games", description:"", members:["",""], contact:""}
+  ]
+
+  function search(){
+  
+  }
+
+  return (
+    <div>
+        <div className="searchBar">
+          <MagnifyingGlass size={28} />
+          <input type="text" placeholder="Pesquise os projetos"/>
+        </div>
+        <div className="grid">
+            {equipes.map((infos) => {
+              return <TeamCard infos={infos}/>
+            })}
+        </div>
+        </div>
+    )
 }
 
 export default Equipe;
