@@ -1,9 +1,63 @@
-.grid{
-    border: 1px solid #ccc;
-    border-radius: 10%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    
-    text-align: center;
+.grid2{
+    background-color: white;       /* Cor de fundo dos campos (opcional) */
+  border: 2px solid #ccc;         /* Borda dos campos (opcional) */
+  border-radius: 10px;            /* Arredonda as bordas dos campos */
+  
+  justify-content: center;       /* Centraliza horizontalmente o conteúdo (opcional) */
+  align-items: center;           /* Centraliza verticalmente o conteúdo (opcional) */
+  font-size: 30px; 
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; 
+  text-align: center;
+  cursor: pointer;
+  height: fit-content;
+   
 }
+.grid2:hover {
+    transform: scale(1.05); /* Expande o card em 5% no hover */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave no hover */
+    background-color: #006ff6;
+    color: white;
+  }
+
+
+
+.Descript{
+    
+    padding: 0 10%;
+}
+.projectCard button{
+    margin-bottom: 5%;
+}
+
+  
+.projectCard {
+    /* Borda e cantos arredondados */
+    border: 1px solid black;
+    border-radius: 40px;
+  
+    /* Tamanho e espaçamento */
+    width: 80%;
+    height: 85%;
+    margin-bottom: 20px;
+  
+    /* Animação suave no hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+    /* Sombra padrão para dar profundidade */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    /* Fundo branco para destaque */
+    background-color: #ffffff;
+  
+    /* Caixa de padding se desejar centralizar conteúdo */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .projectCard:hover {
+    /* Efeito de elevação no hover */
+    transform: translateY(-5px);
+  
+    /* Sombra mais forte ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }

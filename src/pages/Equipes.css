@@ -57,7 +57,7 @@
   }
   
   .carrossel-direita {
-    width: 60%;
+    width: fit-content;
     padding-left: 60px;
     color: #0d5ea1;
   }
