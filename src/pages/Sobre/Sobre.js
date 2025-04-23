@@ -177,7 +177,7 @@ function Sobre() {
 
       <h1 id="contato">Fale conosco!</h1>
       <form 
-        action="https://formsubmit.co/wolfbytegames@gmail.com" 
+        action="https://formsubmit.co/sbc-cefetrj-cs@ieee.org" 
         method="POST"
         class="form-container"
         onSubmit={()=>{toast.info("Cheque sem endereço de email! Vamos te responder por lá.")}}
@@ -219,7 +219,7 @@ function Sobre() {
           style={{ cursor: 'pointer', textDecoration: 'underline' }} 
           >
 
-          :        wolfbytegames@gmail.com
+          :       sbc-cefetrj-cs@ieee.org
         </span> 
         , ou para nosso Instagram
         <a 
