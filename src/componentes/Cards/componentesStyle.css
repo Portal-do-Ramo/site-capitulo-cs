@@ -21,43 +21,51 @@
 
 
 
-.Descript{
-    
-    padding: 0 10%;
+.Descript{ 
+  text-align: center;
+  margin-top: 5%;
 }
+
 .projectCard button{
     margin-bottom: 5%;
 }
 
-  
 .projectCard {
-    /* Borda e cantos arredondados */
-    border: 1px solid black;
-    border-radius: 40px;
+  border: 1px solid black;
+  border-radius: 40px;
+  cursor: pointer;
+
+  width: 100%;
+  min-height: 300px;
+  height: auto;
   
-    /* Tamanho e espaçamento */
-    width: 80%;
-    height: 85%;
-    margin-bottom: 20px;
-  
-    /* Animação suave no hover */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  
-    /* Sombra padrão para dar profundidade */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  
-    /* Fundo branco para destaque */
-    background-color: #ffffff;
-  
-    /* Caixa de padding se desejar centralizar conteúdo */
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  
+  margin-bottom: 20px;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+
+  padding: 5%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  box-sizing: border-box;
+
+  text-align: center;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
   .projectCard:hover {
-    /* Efeito de elevação no hover */
     transform: translateY(-5px);
-  
-    /* Sombra mais forte ao passar o mouse */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
+
+  @media (max-width: 400px) {
+    .projectCard {
+      padding: 10% 5%;
+    }
+  }
+  

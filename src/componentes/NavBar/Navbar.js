@@ -1,17 +1,22 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
-import logo from "./Logo.png";
 
 function Navbar() {
   const location = useLocation();
   const nomeDaRota = location.pathname;
-  console.log(nomeDaRota)
+
   return (
     <nav className="navbar">
       <div className="logo-container">
-        <img src={logo} alt="Logo" className="logo" />
+        <Link to="/">
+          <img src="/Logo.png" alt="Logo" className="logo" /> 
+        </Link>
+        <Link to="https://www.ramoieeecefetrj.com.br">
+          <img src="/LogoRamo.png" alt="Logo - Ramo Estudantil - CEFET/RJ" className="logo-ramo"/>
+        </Link>
       </div>
+      
       <ul className="nav-list">
         {nomeDaRota === "/" ? (<></>) : 
         (<><li>
@@ -21,9 +26,9 @@ function Navbar() {
         (<><li>
           <Link className="nav-item" to="/equipes">Equipes</Link>
         </li></>)}
-        {nomeDaRota === "/projetos" ? (<></>) : 
+        {nomeDaRota === "/projetos/filtro" ? (<></>) : 
         (<><li>
-          <Link className="nav-item" to="/projetos">Projetos</Link>
+          <Link className="nav-item" to="/projetos/filtro?">Projetos</Link>
           </li></>)}
         
       </ul>

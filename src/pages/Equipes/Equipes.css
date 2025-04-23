@@ -1,0 +1,164 @@
+.equipe-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  padding-top: 3%;
+  text-align: center;
+}
+
+
+.equipe-align > button:hover{
+  background-color: transparent;
+}
+
+.equipe-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  padding-top: 8%;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  height: 80vh;
+  gap: 10%;
+}
+
+.equipe-page button{
+  width: 30%;
+  min-width: 120px;
+  height: 60%;
+  font-size: 20px;
+  color: white;
+  background-color: #1267a8;
+  border-radius: 10px;
+  border: #2078bb 2px solid;
+}
+
+.equipe-page button:hover{
+  cursor: pointer;
+  background-color: #2078bb;
+}
+
+.carrossel-esquerda,
+.carrossel-direita {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.carrossel-esquerda {
+  color: white;
+  border-radius: 40px;
+  padding: 40px 30px;
+  text-align: center;
+  transition: background-color 0.3s;
+  border: 5px black solid;
+  color: black;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carrossel-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+
+.carrossel-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  color: blue;
+}
+
+.logo-equipe {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.nav-arrow {
+  font-size: 20px;
+  padding: 4px 8px;
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0); 
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 8px;
+  width: auto; 
+  height: auto;
+  z-index: 1000;
+}
+
+.nav-arrow:hover{
+  color: #2078bb;
+}
+
+.nome-equipe {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.projects ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.projects li {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Responsividade */
+@media (max-width: 708px) {
+  .equipe-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 30px;
+    text-align: center;
+    margin-top: 5%;
+
+  }
+
+  .carrossel-esquerda,
+  .carrossel-direita {
+    padding: 30px 20px;
+    max-width: 100%;
+  }
+
+  .carrossel-logo-container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .logo-equipe {
+    width: 120px;
+    height: 120px;
+  }
+
+  .explore{
+    margin-bottom: 5%;
+  }
+}
