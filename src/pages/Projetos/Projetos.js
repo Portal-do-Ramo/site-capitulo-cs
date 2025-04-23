@@ -251,7 +251,10 @@ function Projetos() {
     const results = projetos.filter((projeto) =>
       projeto.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       projeto.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      projeto.team.toLowerCase().includes(searchTerm.toLowerCase())
+      projeto.team.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      projeto.membros.some((membro) =>
+        membro.nome.toLowerCase().includes(searchTerm.toLowerCase())
+      )
     );
     setSearchResults(results);
   };
@@ -296,7 +299,7 @@ function Projetos() {
         <input
           id="search-bar"
           type="text"
-          placeholder="Pesquise por nome ou equipe"
+          placeholder="Pesquise por projeto, membro ou equipe"
           value={searchTerm}
           onChange={handleSearchInputChange}
           disabled={!!query.get('equipe')}
