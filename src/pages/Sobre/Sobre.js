@@ -23,7 +23,7 @@ function Sobre() {
   }
 
   function copyEmail() {
-    const email = "wolfbytegames@gmail.com";
+    const email = "sbc-cefetrj-cs@ieee.org";
     
     const tempInput = document.createElement("input");
     document.body.appendChild(tempInput);
@@ -96,7 +96,7 @@ function Sobre() {
         <img className="logo2" src="/11.png" alt="LOGO" />
 
         <p className="text">
-          Fundado por estudantes do <span className="destaque">Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ)</span>, o CS Chapter tem como missão fomentar o interesse e o aprofundamento em áreas como ciência da computação,engenharia de software, inteligência artificial, segurança da informação, computação em nuvem, entre outras. Através de workshops,hackathons, seminários, grupos de estudo e projetos técnicos, o capítulo oferece aos seus membros <span className="destaque">oportunidades de aprendizado além da sala de aula</span>.
+          Fundado por estudantes do <span className="destaque">Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ)</span>, o CS Chapter tem como missão fomentar o interesse e o aprofundamento em áreas como ciência da computação, engenharia de software, inteligência artificial, segurança da informação, computação em nuvem, entre outras. Através de workshops, hackathons, seminários, grupos de estudo e projetos técnicos, o capítulo oferece aos seus membros <span className="destaque">oportunidades de aprendizado além da sala de aula</span>.
         </p>
 
       </div>
@@ -212,16 +212,16 @@ function Sobre() {
       </form>
 
       <p className="text obs">
-        Se preferir mande email diretamente para 
+        Se preferir mande email diretamente para: 
         <span 
           className="destaque" 
           onClick={copyEmail}
           style={{ cursor: 'pointer', textDecoration: 'underline' }} 
           >
 
-          :       sbc-cefetrj-cs@ieee.org
+              sbc-cefetrj-cs@ieee.org
         </span> 
-        , ou para nosso Instagram
+        , ou para nosso Instagram: 
         <a 
           className="destaque" 
           href="https://www.instagram.com/cs.cefetrj" 
@@ -230,7 +230,7 @@ function Sobre() {
           style={{ cursor: 'pointer', textDecoration: 'underline' }} 
 
           >
-          :            @cs.cefetrj
+              @cs.cefetrj
         </a>
       </p>
 

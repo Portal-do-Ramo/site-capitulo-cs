@@ -12,6 +12,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Para navegadores Webkit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* largura da barra vertical */
+  height: 3px; /* altura da barra horizontal */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #103d5f; /* cor da barrinha */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* cor de fundo da barra (opcional) */
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -14,7 +14,7 @@ const equipes = [
     nome: 'Web/App',
     logo: webicon,
     descricao: `
-    Equipe voltada para desenvolvimento de software para web ou mobile, com uma stack de tecnologias diversificade. Lida desde a documentação até a programação.
+    Equipe voltada para desenvolvimento de software para web ou mobile, com uma stack de tecnologias diversificada. Lida desde a documentação até a programação.
     `,
     cores: {
       esquerda: '#0693ba',
@@ -24,7 +24,8 @@ const equipes = [
   {
     nome: 'IA/BOT',
     logo: iaicon,
-    descricao: `Equipe voltada para pesquisa e construção de modelos de inteligência artificila e BOTS.
+    descricao: `
+    Equipe voltada para pesquisa e construção de modelos de inteligência artificial, machine learning e BOTS.
     `,
     cores: {
       esquerda: '	#00FF00',
@@ -44,7 +45,7 @@ const equipes = [
   {
     nome: 'Hardware',
     logo: hardicon,
-    descricao: `Equipe voltada para pesquisa e construção de componentes, ou conjunto de componentes, de computadores e consoles`,
+    descricao: `Equipe voltada para pesquisa e construção de componentes, ou conjunto de componentes, de computadores, consoles e dispositivos eletrônicos em geral`,
     cores: { 
       esquerda: 'rgb(226, 226, 13) ',
       direita: '	rgb(226, 226, 13) ',

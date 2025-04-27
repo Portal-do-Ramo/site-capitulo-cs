@@ -21,23 +21,26 @@
     background-color: rgba(128, 128, 128, 0.167);
 }
 
-@media (max-width: 508px) {
-    .logos {  
-      overflow-x: scroll;
-      padding-left: 0;
-      padding-right: 0;
-      gap: 0px;
-      height: auto;
-    }
-  
-    .logo-cefet,
-    .logo-cs,
-    .logo-byte,
-    .logoramo {
-      flex-shrink: 0; /* evita que as imagens encolham */
-    }
+@media (max-width: 1024px) {
+  .logos {  
+    overflow-x: scroll;
+    padding-left: 0;
+    padding-right: 0;
+    gap: 0px;
+    height: auto;
   }
-  
+
+  .logo-cefet,
+  .logo-cs,
+  .logo-byte,
+  .logoramo {
+    flex-shrink: 0; /* evita que as imagens encolham */
+    width: 50vw; /* ajusta o tamanho para não ficar gigante */
+    height: auto; /* deixa a altura proporcional */
+    margin: 0 10px; /* espaço lateral entre as logos */
+  }
+}
+
 
 .logo-cs{
     width: 15vw;
@@ -60,8 +63,6 @@
     height: 90%;
     margin-right: 10%;
 }
-
-
 
 h1{
     font-size: 42px;
@@ -118,6 +119,7 @@ h2{
 .logo2{
     width: 40%;
     height: 30vh;
+    min-width: 320px;
 }
 
 .destaque{
@@ -263,6 +265,8 @@ h2{
     height: 40vh;
     object-fit: cover;
     border-radius: 5px;
+    border: #1267a8 2px solid;
+    box-shadow: 2px 2px 5px black;
   }
   
   @media (max-width: 768px) {

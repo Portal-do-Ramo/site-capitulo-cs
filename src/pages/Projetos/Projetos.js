@@ -14,16 +14,16 @@ function Projetos() {
   const [projetos, setProjetos] = useState([
     {
       name: "Site Do Ramo",
-      description: "Site de inscrição e divulgação do Student Branch CEFET/RJ.",
+      description: "Site de inscrição e divulgação do Ramo Estudantil IEEE CEFET/RJ.",
       team: "Web/App",
       type: "Projeto",
       link: "https://www.ramoieeecefetrj.com.br/",
-      about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis euismod risus, sit amet tempor lorem. Phasellus pharetra libero ac orci dictum, id tincidunt arcu viverra. Integer in magna quis eros tempor malesuada non eu neque. Nulla facilisi. Sed eget dui sed velit dignissim efficitur.",
+      about: "O Site do Ramo é o principal canal de divulgação do Ramo Estudantil - IEEE - CEFET/RJ. Nele,  são descritos todas as informações sobre a extensão, história, valores, missão, equipes, projetos, etc. Além da divulgação, é pelo website que estudantes do CEFET/RJ se inscrevem no Processo Seletivo Externo do Ramo Estudantil e demonstram interesse em ser membros. Através dele, os Coordenadores das Equipes (Chair) podem atualizar informações sobre seus capítulos e a Diretoria pode agendar processos seletivos.",
       membros: [
         { nome: "Ana Beatriz Caldas", contato: "" },
         { nome: "Arthur Duarte", contato: "" },
         { nome: "Cleyton Prado", contato: "" },
-        { nome: "Gustavo Andrade", contato: "" },
+        { nome: "Gustavo Andrade", contato: "gustavoandrade0125@gmail.com" },
         { nome: "Sarah Campos", contato: "" },
         { nome: "Luiz Antrônio", contato: "" }
       ]
@@ -33,17 +33,17 @@ function Projetos() {
       description: "Software de gerenciamento de hortas automatizadas. Parceria com capítulo PES/CEFET-RJ",
       team: "Web/App",
       type: "Projeto",
-      link: "https://github.com/WolfByte-CEFET-RJ/Web-Irrigador_automatico_application/tree/develop",
-      about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis euismod risus, sit amet tempor lorem. Phasellus pharetra libero ac orci dictum, id tincidunt arcu viverra. Integer in magna quis eros tempor malesuada non eu neque. Nulla facilisi. Sed eget dui sed velit dignissim efficitur.",
+      link: "https://github.com/WolfByte-CEFET-RJ/Web-Irrigador_automatico_application/tree/master",
+      about: "Parceria com o PES/CEFET-RJ, é um software de gerenciamento de hortas automatizadas que integra princípios da sustentabilidade e desenvolvimento de software. A solução foi projetada como uma aplicação versátil que funciona como central de processamento, monitoramento e controle remoto da irrigação das plantações, utilizando sensores de umidade integrados via protocolo MQTT, caracterizando-se como um sistema IoT. A metodologia adotada envolveu o uso de tecnologias de desenvolvimento de baixo custo e banco de dados para armazenamento e análise dos dados coletados. Os resultados alcançados demonstram que a harmonia entre sustentabilidade e programação pode ser alcançada visando o benefício do usuário. Conclui-se que o Smart Garden é uma ferramenta viável e de impacto social positivo desde sua concepção até sua implantação, promovendo a aproximação entre tecnologia e práticas sustentáveis.",
       membros: [
         { nome: "Ana Beatriz Caldas", contato: "" },
         { nome: "Arthur Coutto", contato: "" },
         { nome: "Cleyton Prado", contato: "" },
-        { nome: "Gustavo Andrade", contato: "" },
+        { nome: "Gustavo Andrade", contato: "gustavoandrade0125@gmail.com" },
         { nome: "Rhyan Pinto", contato: "" },
-        { nome: "Isabela", contato: "" },
+        { nome: "Isabela Rocha", contato: "" },
         { nome: "João Terêncio", contato: "" },
-        { nome: "Bianca", contato: "" },
+        { nome: "Bianca Gallichio", contato: "" },
         { nome: "Matheus Figueiredo", contato: "" },
         { nome: "João Pedro Weydt", contato: "" },
         { nome: "Rhyan Pinto", contato: "" },
@@ -55,14 +55,14 @@ function Projetos() {
       ]
     },
     {
-      name: "Odoyá",
+      name: "Software Odoyá",
       description: "Website do projeto Odoyá da Extensão ENACTUS.",
       team: "Web/App",
       type: "Projeto",
       link: "https://github.com/WolfByte-CEFET-RJ/Software-Odoya/tree/master",
-      about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis euismod risus, sit amet tempor lorem. Phasellus pharetra libero ac orci dictum, id tincidunt arcu viverra. Integer in magna quis eros tempor malesuada non eu neque. Nulla facilisi. Sed eget dui sed velit dignissim efficitur.",
+      about: "Apoiando a iniciativa de contrução de projetos com maior impacto sócio-ambiental, a aplicação tem como objetivo auxiliar os principais processos do projeto Odoyá-ENACTUS/RJ (@odoya.projeto). A proposta é produzir um sistema que controle o cadastro de pontos de coleta de esponja, depósitos, mutirões de limpeza e inscrições. ",
       membros: [
-        { nome: "Gustavo Andrade", contato: "" },
+        { nome: "Gustavo Andrade", contato: "gustavoandrade0125@gmail.com" },
         { nome: "Sarah Campos", contato: "" },
         { nome: "Carlos Ichiro", contato: "" },
         { nome: "Luiz Antônio", contato: "" },
@@ -72,7 +72,7 @@ function Projetos() {
         { nome: "Rhyan Pinto", contato: "" },
         { nome: "Vinicius Saidy", contato: "" },
         { nome: "Lucas Teixeira", contato: "" },
-        { nome: "Ennya", contato: "" },
+        { nome: "Ennya Gomes", contato: "" },
         { nome: "Rafael Costa", contato: "" },
         { nome: "João Pedro Weydt", contato: "" },
         { nome: "Lucas Teixeira", contato: "" },
@@ -80,28 +80,28 @@ function Projetos() {
     },
     {
       name: "Ramo Store",
-      description: "Website de vendas de produtos do Ramo Estudatil IEEE - CEFET/RJ",
+      description: "E-commerce de produtos do Ramo Estudatil IEEE - CEFET/RJ",
       team: "Web/App",
       type: "Mini-projeto",
       link: "https://github.com/WolfByte-CEFET-RJ/Minicase-IEEEStore",
-      about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis euismod risus, sit amet tempor lorem. Phasellus pharetra libero ac orci dictum, id tincidunt arcu viverra. Integer in magna quis eros tempor malesuada non eu neque. Nulla facilisi. Sed eget dui sed velit dignissim efficitur.",
+      about: "",
       membros: [
         { nome: "Guilherme Andrade", contato: "" },
         { nome: "Daniel Mota", contato: "" },
         { nome: "Lucas Montenegro", contato: "" },
         { nome: "Beatriz Cerutti", contato: "" },
-        { nome: "Marcus", contato: "" },
+        { nome: "Marcus Faben", contato: "" },
       ]
     },
     {
       name: "WiseFinance",
-      description: "Website de carteira digital para controle de receitas e despesas",
+      description: "Website de carteira digital para controle de receitas e despesas.",
       team: "Web/App",
       type: "Mini-projeto",
       link: "https://github.com/WolfByte-CEFET-RJ/Web-minicase_Wise_Finance",
-      about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis euismod risus, sit amet tempor lorem. Phasellus pharetra libero ac orci dictum, id tincidunt arcu viverra. Integer in magna quis eros tempor malesuada non eu neque. Nulla facilisi. Sed eget dui sed velit dignissim efficitur.",
+      about: "",
       membros: [
-        { nome: "Gustavo Andrade", contato: "" },
+        { nome: "Gustavo Andrade", contato: "gustavoandrade0125@gmail.com" },
         { nome: "Lara Ramos", contato: "" },
         { nome: "Lucas Montenegro", contato: "" },
         { nome: "Daniel Medeiros", contato: "" },
@@ -112,11 +112,12 @@ function Projetos() {
       description: "Website de divulgação do Capítulo Computer Society no CEFET/RJ",
       team: "Web/App",
       type: "Atividade",
-      link: "httts://cs.cefetrj.com.br",
-      about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis euismod risus, sit amet tempor lorem. Phasellus pharetra libero ac orci dictum, id tincidunt arcu viverra. Integer in magna quis eros tempor malesuada non eu neque. Nulla facilisi. Sed eget dui sed velit dignissim efficitur.",
+      link: "https://www.cs-cefetrj.com.br/",
+      about: "",
       membros: [
-        { nome: "Gustavo Andrade", contato: "" },
+        { nome: "Gustavo Andrade", contato: "gustavoandrade0125@gmail.com" },
         { nome: "João Pedro Weydt", contato: "" },
+        { nome: "Daniel Medeiros", contato: "" },
       ]
     },
     {
@@ -125,11 +126,8 @@ function Projetos() {
       team: "Games",
       type: "Projeto",
       link: "",
-      about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis euismod risus, sit amet tempor lorem. Phasellus pharetra libero ac orci dictum, id tincidunt arcu viverra. Integer in magna quis eros tempor malesuada non eu neque. Nulla facilisi. Sed eget dui sed velit dignissim efficitur.",
-      membros: [
-        { nome: "membro5", contato: "" },
-        { nome: "membro6", contato: "" }
-      ]
+      about: "",
+      membros: []
     },
     {
       name: "Bear Garden",
@@ -137,11 +135,8 @@ function Projetos() {
       team: "Games",
       type: "Projeto",
       link: "",
-      about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis euismod risus, sit amet tempor lorem. Phasellus pharetra libero ac orci dictum, id tincidunt arcu viverra. Integer in magna quis eros tempor malesuada non eu neque. Nulla facilisi. Sed eget dui sed velit dignissim efficitur.",
-      membros: [
-        { nome: "membro7", contato: "" },
-        { nome: "membro8", contato: "" }
-      ]
+      about: "",
+      membros: []
     },
     {
       name: "Sepex Survivor",
@@ -149,11 +144,8 @@ function Projetos() {
       team: "Games",
       type: "Projeto",
       link: "",
-      about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis euismod risus, sit amet tempor lorem. Phasellus pharetra libero ac orci dictum, id tincidunt arcu viverra. Integer in magna quis eros tempor malesuada non eu neque. Nulla facilisi. Sed eget dui sed velit dignissim efficitur.",
-      membros: [
-        { nome: "membro9", contato: "" },
-        { nome: "membro10", contato: "" }
-      ]
+      about: "",
+      membros: []
     },
     {
       name: "AVIR",
@@ -161,11 +153,8 @@ function Projetos() {
       team: "IA/BOT",
       type: "Projeto",
       link: "",
-      about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis euismod risus, sit amet tempor lorem. Phasellus pharetra libero ac orci dictum, id tincidunt arcu viverra. Integer in magna quis eros tempor malesuada non eu neque. Nulla facilisi. Sed eget dui sed velit dignissim efficitur.",
-      membros: [
-        { nome: "membro11", contato: "" },
-        { nome: "membro12", contato: "" }
-      ]
+      about: "",
+      membros: []
     },
     {
       name: "V3S",
@@ -173,11 +162,8 @@ function Projetos() {
       team: "IA/BOT",
       type: "Projeto",
       link: "",
-      about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis euismod risus, sit amet tempor lorem. Phasellus pharetra libero ac orci dictum, id tincidunt arcu viverra. Integer in magna quis eros tempor malesuada non eu neque. Nulla facilisi. Sed eget dui sed velit dignissim efficitur.",
-      membros: [
-        { nome: "membro13", contato: "" },
-        { nome: "membro14", contato: "" }
-      ]
+      about: "",
+      membros: []
     },
     {
       name: "SIR",
@@ -185,11 +171,8 @@ function Projetos() {
       team: "IA/BOT",
       type: "Projeto",
       link: "",
-      about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis euismod risus, sit amet tempor lorem. Phasellus pharetra libero ac orci dictum, id tincidunt arcu viverra. Integer in magna quis eros tempor malesuada non eu neque. Nulla facilisi. Sed eget dui sed velit dignissim efficitur.",
-      membros: [
-        { nome: "membro15", contato: "" },
-        { nome: "membro16", contato: "" }
-      ]
+      about: "",
+      membros: []
     },
     {
       name: "Fliperama",
@@ -197,11 +180,8 @@ function Projetos() {
       team: "Hardware",
       type: "Projeto",
       link: "",
-      about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis euismod risus, sit amet tempor lorem. Phasellus pharetra libero ac orci dictum, id tincidunt arcu viverra. Integer in magna quis eros tempor malesuada non eu neque. Nulla facilisi. Sed eget dui sed velit dignissim efficitur.",
-      membros: [
-        { nome: "membro17", contato: "" },
-        { nome: "membro18", contato: "" }
-      ]
+      about: "",
+      membros: []
     },
     {
       name: "Console Portátil",
@@ -209,11 +189,8 @@ function Projetos() {
       team: "Hardware",
       type: "Projeto",
       link: "",
-      about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis euismod risus, sit amet tempor lorem. Phasellus pharetra libero ac orci dictum, id tincidunt arcu viverra. Integer in magna quis eros tempor malesuada non eu neque. Nulla facilisi. Sed eget dui sed velit dignissim efficitur.",
-      membros: [
-        { nome: "membro19", contato: "" },
-        { nome: "membro20", contato: "" }
-      ]
+      about: "",
+      membros: []
     },
     {
       name: "Torre de Carregador",
@@ -221,11 +198,8 @@ function Projetos() {
       team: "Hardware",
       type: "Projeto",
       link: "",
-      about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis euismod risus, sit amet tempor lorem. Phasellus pharetra libero ac orci dictum, id tincidunt arcu viverra. Integer in magna quis eros tempor malesuada non eu neque. Nulla facilisi. Sed eget dui sed velit dignissim efficitur.",
-      membros: [
-        { nome: "membro21", contato: "" },
-        { nome: "membro22", contato: "" }
-      ]
+      about: "",
+      membros: []
     }
   ]);
   
@@ -276,10 +250,15 @@ function Projetos() {
   }, [searchTerm]);
 
   function copyEmail(membro) {
+
+    if(!membro.contato){
+      toast.error("O membro não possui informações de contato cadastradas")
+      return
+    }
     
     const tempInput = document.createElement("input");
     document.body.appendChild(tempInput);
-    tempInput.value = membro.nome;
+    tempInput.value = membro.contato;
     
     tempInput.select();
     document.execCommand("copy");
@@ -342,25 +321,59 @@ function Projetos() {
 
             <p><strong>Equipe:</strong> {selectedProject.team}</p>
             <p><strong>Tipo:</strong> {selectedProject.type}</p>
-            <p><strong>Link associado:</strong> <a href={selectedProject.link}>{selectedProject.link}</a></p>
+            
+            <p>
+              <strong>Link associado:</strong>{" "}
+              {selectedProject.link ? 
+              (
+                <a href={selectedProject.link} target="_blank" rel="noopener noreferrer">
+                  {selectedProject.link}
+                </a>) 
+              : <p style={{ color: "gray", fontSize: 12 }}>Nenhum link informado.</p>
+              }
+
+            </p>
+            
             <p><strong>Resumo:</strong> {selectedProject.description}</p>
-            <p><strong>Sobre:</strong> {selectedProject.about}</p>
+            
+            <p>
+              <strong>Sobre:</strong>{" "}
+              {selectedProject.about ? (
+                <>{selectedProject.about}</>
+              ) : (
+                <p style={{ color: "gray", fontSize: 12 }}>Sem mais informações sobre o projeto.</p>
+              )}
+            </p>
+
+
 
             <div className="membros-container">
               <strong>Membros:</strong>
-              <div className="membros-pills">
-                {selectedProject.membros.map((membro, index) => (
-                  <span key={index} className="membro-pill" onClick={()=>{copyEmail(membro)}}>
-                    {membro.nome}
+              {selectedProject.membros.length > 0 ? (
+                <>
+                  <span style={{ color: "gray", fontSize: 12 }}>
+                    {" "}Clique para entrar em contato
                   </span>
-                ))}
-              </div>
+                  <div className="membros-pills">
+                    {selectedProject.membros.map((membro, index) => (
+                      <span
+                        key={index}
+                        className="membro-pill"
+                        onClick={() => copyEmail(membro)}
+                      >
+                        {membro.nome}
+                      </span>
+                    ))}
+                  </div>
+                </>
+              ) : (
+                <p style={{ color: "gray", fontSize: 12 }}>Nenhum membro listado.</p>
+              )}
             </div>
           </div>
-
-      </div>
-
+        </div>
       )}
+
 
 
 
